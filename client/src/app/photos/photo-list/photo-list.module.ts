@@ -24,4 +24,4 @@ import { SearchComponent } from './search/search.component';
         DarkenOnHoverModule
     ]
 })
-export class PhotoListMOdule {}
+export class PhotoListModule {}

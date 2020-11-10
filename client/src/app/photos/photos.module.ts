@@ -2,14 +2,14 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { PhotoModule } from './photo/photo.module';
-import { PhotoFromModule } from './photo-form/photo-form.module';
-import { PhotoListMOdule } from './photo-list/photo-list.module';
+import { PhotoListModule } from './photo-list/photo-list.module';
+import { PhotoFormModule } from './photo-form/photo-form.module';
 
 @NgModule({
     imports: [
         PhotoModule,
-        PhotoFromModule,
-        PhotoListMOdule,
+        PhotoListModule,
+        PhotoFormModule,
         CommonModule
     ]
 })
